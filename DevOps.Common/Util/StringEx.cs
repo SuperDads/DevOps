@@ -7,13 +7,10 @@ using System.Text;
 
 namespace DevOps.Common.Util
 {
-#if EXPOSE_EVERYTHING || EXPOSE_STRINGEX
-public
-#endif
     /// <summary>
     /// String拓展方法
     /// </summary>
-    static partial class StringEx
+    public static partial class StringEx
     {
 #pragma warning disable 1591
 

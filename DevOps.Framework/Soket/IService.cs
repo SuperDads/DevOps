@@ -14,6 +14,9 @@ namespace DevOps.Framework.Soket
         /// <returns></returns>
         bool Handle(byte[] firstPacket, int length, Socket socket, object state);
 
+        /// <summary>
+        /// 暂停
+        /// </summary>
         void Stop();
     }
 }

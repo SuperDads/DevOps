@@ -41,9 +41,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Soket\Configuration.cs" />
     <Compile Include="Soket\IService.cs" />
     <Compile Include="Soket\Listener.cs" />
+    <Compile Include="Soket\PrivoxyRunner.cs" />
+    <Compile Include="Soket\Server.cs" />
     <Compile Include="Soket\Service.cs" />
+    <Compile Include="Soket\UDPState.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\DevOps.Common\DevOps.Common.csproj">

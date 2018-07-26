@@ -3,7 +3,7 @@ using System.Configuration;
 using System.Web;
 using System.Web.Configuration;
 
-namespace DevOps.Common.Utils
+namespace DevOps.Common.Util
 {
     public class ConfigHelper : IDisposable
     {

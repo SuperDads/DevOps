@@ -45,6 +45,12 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Util\BandwidthScaleInfo.cs" />
     <Compile Include="Util\ConfigHelper.cs" />
+    <Compile Include="Util\ProcessManagement\IoCounters.cs" />
+    <Compile Include="Util\ProcessManagement\Job.cs" />
+    <Compile Include="Util\ProcessManagement\JobObjectBasicLimitInformation.cs" />
+    <Compile Include="Util\ProcessManagement\JobObjectExtendedLimitInformation.cs" />
+    <Compile Include="Util\ProcessManagement\JobObjectInfoType.cs" />
+    <Compile Include="Util\ProcessManagement\SecurityAttributes.cs" />
     <Compile Include="Util\StringEx.cs" />
     <Compile Include="Util\Util.cs" />
   </ItemGroup>
