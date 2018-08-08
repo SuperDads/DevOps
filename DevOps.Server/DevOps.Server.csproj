@@ -55,6 +55,16 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DevOps.Common\DevOps.Common.csproj">
+      <Project>{e0c51c23-e715-4d97-8069-5cb49619b665}</Project>
+      <Name>DevOps.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DevOps.Framework\DevOps.Framework.csproj">
+      <Project>{75f487a8-9bfd-441b-b3bd-b5274e442629}</Project>
+      <Name>DevOps.Framework</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
