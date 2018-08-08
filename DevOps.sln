@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevOps.Framework", "DevOps.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevOps.Server", "DevOps.Server\DevOps.Server.csproj", "{A3160F2E-F84F-4A9E-B862-3E2C162E792F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevOps.Client", "DevOps.Client\DevOps.Client.csproj", "{AAB22E69-AFF0-48BE-8014-6837B1239C5A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,6 +31,10 @@ Global
 		{A3160F2E-F84F-4A9E-B862-3E2C162E792F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A3160F2E-F84F-4A9E-B862-3E2C162E792F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A3160F2E-F84F-4A9E-B862-3E2C162E792F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AAB22E69-AFF0-48BE-8014-6837B1239C5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAB22E69-AFF0-48BE-8014-6837B1239C5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAB22E69-AFF0-48BE-8014-6837B1239C5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAB22E69-AFF0-48BE-8014-6837B1239C5A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
